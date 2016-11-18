@@ -1,0 +1,165 @@
+.order_slide1, .order_slide2 {
+position: absolute;
+}
+.reservation_bg
+{
+position:absolute;
+bottom:0px;
+height:95px;
+width:100%;
+background-color:#fff;
+z-index:9;
+}
+@media (min-width: 1200px){
+.reservation_bg{
+bottom: -95px;
+}
+.bg_video_full {
+margin-top: 95px;
+}
+}
+.reservation_bg .res_
+{
+padding-top:15px;
+float:left;
+margin-right:20px;
+}
+.reservation_bg .request
+{
+float:left;	
+padding-top:18px;
+position: relative;
+min-height: 75px;
+width: calc(100% - 183px);
+}
+.reservation_bg .request:after
+{
+content:"";
+display:table;
+clear:both;
+}
+span.request_notify
+{
+font-size: 17px;
+font-family: "Roboto Condensed";
+padding-top: 8px;
+display: inline-block;
+display: none;
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fade-in {
+display: inline-block !important;
+opacity:0; -webkit-animation:fadeIn ease-in 1; -moz-animation:fadeIn ease-in 1;
+animation:fadeIn ease-in 1;
+-webkit-animation-fill-mode:forwards; -moz-animation-fill-mode:forwards;
+animation-fill-mode:forwards;
+-webkit-animation-duration:1s;
+-moz-animation-duration:1s;
+animation-duration:1s;
+}
+span.request_notify
+{
+}
+.reservation_bg .request select
+{
+-webkit-appearance: none;
+-moz-appearance: none;
+background: #fff url(http://demo.fujiya.com.vn/wp-content/themes/sage-child/images/arrow_s.png) no-repeat scroll right top;
+border: 1px solid #ccc;
+font-family: "Roboto Condensed";
+font-size: 15px;
+padding: 4px 40px 4px 4px;
+width: 100%;
+text-transform:uppercase;
+}
+.reservation_bg .request input
+{
+border:1px #ccc solid;
+padding:4px;
+font-family:"Roboto Condensed";
+font-size:15px;	
+width:100%;		
+height: 31px;
+}
+.order_slide1 .restaurant
+{
+width:189px;
+}
+.order_slide1 .calendar
+{
+width:156px;
+}
+.reservation_bg .request .customer_name ,.reservation_bg .request .phone_number , .reservation_bg .request .restaurant , .reservation_bg .request .calendar ,.reservation_bg .request .date  ,.reservation_bg .request .time ,.reservation_bg .request .mumberparty
+{
+float:left;
+margin-right:28px;
+font-family:"Roboto Condensed";
+font-size:14px;	
+position:relative;
+z-index:98;
+}
+.reservation_bg .request .mumberparty
+{
+width:104px;
+}
+.reservation_bg .request .button_request
+{
+float:left;
+background:#ed1c24;
+color:#FFF;
+font-family:"Roboto Condensed";
+font-size:18px;	
+padding:10px;
+padding-right:30px;
+border-radius:5px;
+margin-top:7px;
+position:relative;
+width:159px;
+text-align:center;
+}
+.reservation_bg .request .button_request:after
+{
+right: 6px;
+top: 26px;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+border-left-color: #FFF;
+border-width: 7px;
+margin-top: -10px;
+}	
+.reservation_bg .request .customer_name p,.reservation_bg .request .phone_number p , .reservation_bg .request .restaurant p, .reservation_bg .request .calendar p,.reservation_bg .request .date p ,.reservation_bg .request .time p,.reservation_bg .request .mumberparty p
+{
+font-size:16px;
+}	
+.button_request span.text_1
+{
+}
+.button_request span.loading
+{
+display:none;
+}
+.button_request span.loading i
+{
+font-size:28px !important;
+}
+.reservation_bg .request_lv2
+{
+float:left;	
+padding-top:10px;
+}
+.reservation_bg .request .customer_name
+{
+width:220px;
+}
+.reservation_bg .request .phone_number
+{
+width:174px;
+}
+.reservation_bg p{margin: 0;line-height: 1.42857143}
+.required{border: 1px solid red !important;}
