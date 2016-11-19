@@ -20,7 +20,7 @@ function datban() {
     ?> 
     <div class="reservation_bg">
         <div class="container">
-            <div class="res_"><img src="http://hokkaidosushi.com.vn/template/theme2/images/reservation.png" height="64" width="163"> </div>
+            <div class="res_"><img src="/wp-content/uploads/2015/04/reservation.png" height="64" width="163"> </div>
             <div class="request"> <span class="request_notify"></span>
                 <form id="formBook" class="formBook" name="formBook" method="POST" enctype="multipart/form-data">
                     <div class="aspNetHidden">
